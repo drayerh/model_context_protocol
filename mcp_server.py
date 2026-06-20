@@ -60,7 +60,7 @@ def fetch_doc(doc_id: str ) -> str:
 
 
 @mcp.prompt(
-    name="format"
+    name="format",
     description="Rewrites the contents of the document in Markdown format"
 )
 def format_document(
